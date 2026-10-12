@@ -21,21 +21,30 @@
 <main>
 <div class="card">
 <h1>Privacy Policy</h1>
-<p class="muted">A Little Adventures · by Keme Games · Effective October 7, 2026</p>
+<p class="muted">A Little Adventures · by Keme Games · Effective October 12, 2026</p>
 
 <p>A Little Adventures is a racing game made for children. We built it so that children can play without sharing any personal information. This policy explains what happens with information when the game is played.</p>
 
 <h2>The short version</h2>
 <ul>
   <li>We do not ask for, collect or store names, email addresses, photos, contacts, location or any other personal information.</li>
-  <li>There are no accounts, no chat and no way for players to contact each other.</li>
+  <li>There are no accounts to create, no chat and no way for players to contact each other.</li>
+  <li>The game's ranking shows each player only as a made-up nickname (like "Speedy Panda 42") picked by the game from fixed word lists, with their car color and score. Players cannot type names or messages.</li>
   <li>Game progress (levels, cups, coins, cars and settings) is saved only on the device.</li>
+  <li>Anonymous game statistics and crash reports (Google Analytics for Firebase and Firebase Crashlytics) help us improve the game. They contain no personal information and no advertising ID.</li>
   <li>Ads are shown through Google AdMob with child-directed settings: no personalized ads and no advertising ID.</li>
   <li>Purchases are handled by Google Play and are protected by a grown-up check.</li>
 </ul>
 
 <h2>Information stored on the device</h2>
-<p>The game saves its progress and settings in the app's local storage on the device. This data never leaves the device and is not sent to us. Uninstalling the game or clearing its data deletes it.</p>
+<p>The game saves its progress and settings in the app's local storage on the device. This saved progress never leaves the device and is not sent to us. Uninstalling the game or clearing its data deletes it.</p>
+
+<h2>Game statistics and crash reports</h2>
+<p>The game uses Google Analytics for Firebase and Firebase Crashlytics, both provided by Google, to learn how the game is played and to fix problems. They record game events such as which levels are started and finished, the race place, stars collected, upgrades bought with in-game coins and when a reward video was watched, and they report crashes and errors in the game.</p>
+<p>To do this, Firebase uses a random identifier created by the app (not linked to any person, and replaced when the game is reinstalled) and technical information such as the device model, operating system and app version, and an approximate country. The game never sends names, contacts, location or other personal information. Collection of the advertising ID and the Android ID is turned off, and this data is never used for advertising or to build profiles of children. Game statistics are kept for 2 months and crash reports for 90 days. Google handles this information as described in <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
+
+<h2>Ranking (leaderboard)</h2>
+<p>The game has a ranking of the best racers, stored with Google Cloud Firestore and Firebase Authentication. When a player finishes a level, the game signs in anonymously (no email, password or account details; Firebase only creates a random account ID for the device) and saves the player's score, number of gold cups, car color and a made-up nickname built from fixed word lists. Other players see the nickname, car color, score and rank. Nothing typed by players is ever shown. A parent or guardian can ask us to delete a player's ranking entry at the contact address below.</p>
 
 <h2>Advertising</h2>
 <p>The free version of the game shows short ads only at the end of a level, never while driving. Ads are provided by Google AdMob. Every ad request is marked as directed to children (in line with COPPA and Google Play's Families Policy) and limited to content rated G. The game does not use the Android advertising ID, and ads are not personalized or based on interests.</p>
@@ -47,7 +56,7 @@
 
 <h2>Permissions</h2>
 <ul>
-  <li><strong>Internet and network state:</strong> to load ads and check purchases with Google Play.</li>
+  <li><strong>Internet and network state:</strong> to load ads, check purchases with Google Play, show the ranking, and send anonymous game statistics and crash reports.</li>
   <li><strong>Vibration:</strong> for short, gentle vibrations during play. It can be turned off in the game's settings.</li>
 </ul>
 
